@@ -1,0 +1,6 @@
+user
+user123
+admin
+root
+usuario
+msfadmin
