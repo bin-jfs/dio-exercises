@@ -11,23 +11,6 @@
 O ataque detaque de força bruta (Brute Force Attack) é uma técnica utilizada para descobrir credenciais de acesso tentando todas as combinações possíveis até encontrar a correta. É um método simples, porém demorado, dependendo da complexidade das credenciais utilizadas.
 
 ---
-## Recursos:
-### Slide:
-- [Criando um Ataque Brute Force de senhas com Medusa e Kali Linux](https://hermes.dio.me/files/assets/2dd3d3ad-b7e5-4325-8d1d-ddd8e7205fea.pdf)
-
-### Softwares e Ferramentas:
-- [Kali Linux](https://www.kali.org/)
-- [Metasploitable 2](https://www.rapid7.com/products/metasploit/metasploitable/)
-- [Medusa](http://www.foofus.net/jmk/medusa/medusa.html)
-- [Nmap](https://nmap.org/)
-
-### Documentações oficiais:
-- [Kali Linux – Site Oficial](https://www.kali.org/docs/)
-- [Metasploitable 2](https://docs.rapid7.com/metasploit/metasploitable-2/)
-- [Medusa – Documentação](http://www.foofus.net/jmk/medusa/medusa.html)
-- [Nmap – Manual Oficial](https://nmap.org/book/toc.html)
-
----
 ## Preparando o ataque:
 ### Criando wordlists simples:
 Utilizaremos o comando `echo -e "user\nuser123\nadmin\nroot\nusuario\nmsfadmin" > users.txt` para criar uma lista de usuários chamada *users.txt* e `echo -e "admin\nuser\nroot\npassword\n123456\nmsfadmin" > passwords.txt` para criar uma lista de senhas chamada *passwords.txt*.
@@ -97,3 +80,20 @@ Após os ataques, podemos perceber que as ferramentas encontraram as credenciais
 \
 O sucesso do ataque pode ser constatado inserindo as credenciais da página de login do *DVWA*.
 ![Login com sucesso](./imgs/13.png)
+
+---
+## Recursos:
+### Slide:
+- [Criando um Ataque Brute Force de senhas com Medusa e Kali Linux](https://hermes.dio.me/files/assets/2dd3d3ad-b7e5-4325-8d1d-ddd8e7205fea.pdf)
+
+### Softwares e Ferramentas:
+- [Kali Linux](https://www.kali.org/)
+- [Metasploitable 2](https://www.rapid7.com/products/metasploit/metasploitable/)
+- [Medusa](http://www.foofus.net/jmk/medusa/medusa.html)
+- [Nmap](https://nmap.org/)
+
+### Documentações oficiais:
+- [Kali Linux – Site Oficial](https://www.kali.org/docs/)
+- [Metasploitable 2](https://docs.rapid7.com/metasploit/metasploitable-2/)
+- [Medusa – Documentação](http://www.foofus.net/jmk/medusa/medusa.html)
+- [Nmap – Manual Oficial](https://nmap.org/book/toc.html)
