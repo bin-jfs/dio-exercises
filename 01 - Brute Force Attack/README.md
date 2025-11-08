@@ -13,7 +13,7 @@ O ataque detaque de força bruta (Brute Force Attack) é uma técnica utilizada 
 ---
 ## Preparando o ataque:
 ### Criando wordlists simples:
-Utilizaremos o comando `echo -e "user\nuser123\nadmin\nroot\nusuario\nmsfadmin" > users.txt` para criar uma lista de usuários chamada *users.txt* e `echo -e "admin\nuser\nroot\npassword\n123456\nmsfadmin" > passwords.txt` para criar uma lista de senhas chamada *passwords.txt*.
+Utilizaremos os comandos `echo -e "user\nuser123\nadmin\nroot\nusuario\nmsfadmin" > users.txt` para criar uma lista de usuários chamada *users.txt* e `echo -e "admin\nuser\nroot\npassword\n123456\nmsfadmin" > passwords.txt` para criar uma lista de senhas chamada *passwords.txt*.
 
 ### Scan de hosts, portas e serviços com Nmap:
 Precisamos nos certificar que o Kali e o Metasploitable estão na mesma rede. Para isso utilizaremos o comando `ifconfig` em ambos. \
