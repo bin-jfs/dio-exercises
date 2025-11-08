@@ -55,12 +55,12 @@ Conhecendo as portas e serviços, podemos executar os ataques de Brute Force.
 ## Executando os ataques:
 Para executar os ataques de Brute Force em FTP (porta 21), SSH (porta 22) e SMB (porta 445), utilizaremos a ferramenta *Medusa* com as wordlists criadas anteriormente.
 ### Brute Force Attack em FTP:
-Executando o comando `medusa -h 192.168.219.3 -U users.txt -P passwords.txt -M ftp -t 6` temos como resultado usuário e senha = msfadmin:
+Executando o comando `medusa -h 192.168.219.3 -U users.txt -P passwords.txt -M ftp -t 6` temos o resultado de *msfadmin* como usuário e senha:
 \
 ![Resultado do ataque de Brute Force em FTP](./imgs/04.png)
 \
 \
-Podemos verificar o sucesso do ataque, se conectando ao host via FTP, com o comando `ftp 192.168.219.3` e utilizando as credenciais msfadmin para login e senha.
+Podemos verificar o sucesso do ataque, se conectando ao host via FTP, com o comando `ftp 192.168.219.3` e utilizando as credenciais *msfadmin* para login e senha.
 ![Login FTP](./imgs/05.png)
 
 ### Brute Force Attack em SSH:
