@@ -2,7 +2,7 @@
 
 ### Repositório dedicado às postagens dos exercícios e desafios do curso de Cibersegurança 2025, oferecido pelo Santander em parceria com a DIO.
 
-## [Brute Force Attack:](./Brute%20Force%20Attack)
+## [Brute Force Attack](./Brute%20Force%20Attack)
 
 ### Descrição do Desafio:
 
