@@ -25,8 +25,8 @@
 
 - Implementar, documentar e compartilhar um projeto prático utilizando Python, simulando o comportamento de malwares em um ambiente seguro.
 
-- [**Ransomware Simulado:**](./Malwares%20Simulados/Ransomware) criar arquivos de teste, implementar um script que criptografa e descriptografa, além de gerar mensagem de “resgate”.
+- [**Ransomware:**](./Malwares%20Simulados/Ransomware) criar arquivos de teste, implementar um script que criptografa e descriptografa, além de gerar mensagem de “resgate”.
 
-- [**Keylogger Simulado:**](./Malwares%20Simulados/Keylogger) programar captura de teclas em arquivo .txt, torná-lo mais furtivo e implementar envio automático por e-mail.
+- [**Keylogger:**](./Malwares%20Simulados/Keylogger) programar captura de teclas em arquivo .txt, torná-lo mais furtivo e implementar envio automático por e-mail.
 
 - Reflexão sobre Defesa: documentar medidas de prevenção e defesa (antivírus, firewall, sandboxing, conscientização do usuário).
