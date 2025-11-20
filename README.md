@@ -1,3 +1,5 @@
+<center><img src="https://assets.santanderopenacademy.com/uploaded/programs/db1c16dc-ffce-44a7-8693-d9e7f424fb3c"></center>
+
 # Desafios do curso Santander - Cibersegurança 2025 - DIO
 
 ### Repositório dedicado às postagens dos exercícios e desafios do curso de Cibersegurança 2025, oferecido pelo Santander em parceria com a DIO.
