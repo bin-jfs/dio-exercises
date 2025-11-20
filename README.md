@@ -1,7 +1,6 @@
 <p align="center">
   <img src="https://assets.santanderopenacademy.com/uploaded/programs/db1c16dc-ffce-44a7-8693-d9e7f424fb3c" alt="Santander - Cibersegurança 2025"/>
 </p>
-<img src="" align="center">
 
 # Desafios do curso Santander - Cibersegurança 2025 - DIO
 
